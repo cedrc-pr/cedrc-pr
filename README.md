@@ -2,7 +2,7 @@
 
 Full-stack developer, currently heading toward DevOps. Third-year student at École 89 (alternance / work-study program), aiming for a DevOps master's next.
 
-**Open to a DevOps alternance starting September/October 2027** — [LinkedIn: cedric-prin](https://www.linkedin.com/in/cedric-prin) · cedric.prin@free.fr
+**Open to a DevOps alternance starting September/October 2027**: [LinkedIn: cedric-prin](https://www.linkedin.com/in/cedric-prin) - cedric.prin@free.fr
 
 > **Why is my GitHub so quiet?**
 > 
@@ -14,11 +14,11 @@ Infrastructure and DevOps are my main focus for the future, I’m already teachi
 
 **Infrastructure**
 
-Linux (fedora, debian), Bash, systemd (service management), SSH (hardening), ufw, firewalld, CrowdSec, fail2ban
+Linux (fedora, debian, ubuntu), networking (VPC/VCN, subnets, routing, security rules), Bash, systemd (service management), SSH (hardening), ufw/firewalld, CrowdSec/fail2ban
 
 **Automation**
 
-Ansible (playbooks, roles, vault), ghcr.io (container registry), GitHub Actions (workflows, CI/CD pipelines)
+Ansible (playbooks, roles, vault), Terraform (Infrastructure as Code), Oracle Cloud Infrastructure (OCI), ghcr.io (container registry), GitHub Actions (workflows, CI/CD pipelines)
 
 **Containers**
 
@@ -28,7 +28,10 @@ Docker, Docker compose, Docker networking (custom subnets, container ↔ host co
 
 Prometheus, Grafana, node-exporter, cAdvisor
 
-I've also had an introduction covering the basics of AWS and Terraform.
+I've also had an introduction covering the basics of AWS, and have since been working with Terraform and Oracle Cloud Infrastructure (OCI) for my own infrastructure.
+
+> **Why OCI?**
+> I’m teaching myself all these concepts, and OCI offers a very interesting ‘always free’ tier.
 
 ## DevOps projects
 
@@ -36,9 +39,12 @@ I've also had an introduction covering the basics of AWS and Terraform.
 
 Three of my projects work together as a small CI/CD system built around my home server: **infra** provisions the server, **copit** is the app deployed on it, and **deployer** is the daemon that safely triggers each redeploy.
 
-[infra](https://github.com/cedrc-pr/infra) — Ansible playbook that provisions Debian 13 and Fedora 44 servers from scratch: SSH hardening, automatic security updates, ufw/firewalld, CrowdSec or fail2ban, Docker, and Traefik as a reverse proxy with Let's Encrypt and secure headers. It also contains the roles that deploy copit and deployer themselves.
+[infra](https://github.com/cedrc-pr/infra) — Terraform and Ansible infrastructure project:
+- Terraform provisions the cloud resources on Oracle Cloud Infrastructure (OCI), including the network, subnet, routing, security rules and ARM virtual machine.
+- Ansible then configures the servers from scratch: SSH hardening, automatic security updates, ufw or firewalld, CrowdSec or fail2ban, Docker, and Traefik as a reverse proxy with Let's Encrypt and secure headers.
+- It also contains the roles that deploy copit and deployer themselves.
 
-[copit](https://github.com/cedrc-pr/copit) — password-protected chat rooms for sharing code snippets or long links between devices. Built with a Rust API (WebSockets, Redis) and a React frontend; it's the app this whole CI/CD pipeline was built around.
+[copit](https://github.com/cedrc-pr/copit) — password-protected chat rooms for sharing code snippets or long links between devices. Built with a Rust API (WebSockets, Redis) and a React frontend; it's the app this whole CI/CD pipeline was first built around.
 
 [deployer](https://github.com/cedrc-pr/deployer) — a Rust daemon that receives an authenticated request from GitHub Actions after an image push and runs the redeploy script for the matching service. Runs as a systemd service, bound to a dedicated Docker subnet so the Traefik container can reach it without exposing it directly or sharing the host network.
 
@@ -89,14 +95,18 @@ REST API, HTTP, WebSockets, API design, database transactions, caching (Redis), 
 
 **Design & Collaboration**
 
-Figma, UI/UX, Accessibility
+Figma, UI/UX, Accessibility, MCD, use case diagram
+
+> **Where do I create MCDs and use case diagrams?**
+> I was surprised to find that there aren’t really any completely free tools for these diagrams, but fortunately I’ve found some ‘code-based’ alternatives that I like: [Mocodo](https://www.mocodo.net/) for MCDs and [plantUML](https://www.plantuml.com) for use case diagrams.
 
 ## Development projects
 
 ### Full-stack 
 
-- **School administration app**  — manages information for ~200 students; **currently in production** and used daily by staff.
+- **School administration app** — manages information for ~200 students; **currently in production** and used daily by staff.
 - **AI-assisted exercise assessment** — a teacher creates an exercise, an **LLM** generates questions from it, a student answers them, and a report is generated to estimate the student's level and readiness for the exercise. Built as a clean, working prototype (POC) to validate the concept ahead of a larger initiative exploring **how AI can be integrated meaningfully into teaching at my school**.
+- [Copit](https://copit.cedric-prin.dev) ([repo](https://github.com/cedrc-pr/copit)) - a web app where you can create a chat room where only those with the password can join, perfect for sharing snippets of code or long links with colleagues or between devices.
 - CLI for easier **LDAP** (school authentication system) management with built-in **email** sending.
 - **Venueflow** ([repo](https://github.com/cedrc-pr/venueflow)) — an event and activity manager handling queues, delays, and live display screens.
 - **Real-time bus schedule app** — consumes a public transit API to show live arrival times.
@@ -180,4 +190,4 @@ I listen to a lot of music, from soul and jazz to house and rap.
 
 ---
 
-**Let's talk:** [LinkedIn](https://www.linkedin.com/in/cedric-prin) · cedric.prin@free.fr
+**Let's talk:** [LinkedIn](https://www.linkedin.com/in/cedric-prin) - cedric.prin@free.fr
