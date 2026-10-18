@@ -5,6 +5,7 @@ Full-stack developer, currently heading toward DevOps. Third-year student at Éc
 **Open to a DevOps alternance starting September/October 2027**: [LinkedIn: cedric-prin](https://www.linkedin.com/in/cedric-prin) - cedric.prin@free.fr
 
 > **Why is my GitHub so quiet?**
+> 
 > All of my school, work and personal projects live on private Git servers or on my own self-hosted Forgejo instance. I treat this GitHub profile as a showcase and portfolio rather than my day-to-day workspace.
 
 # Infra & DevOps
@@ -97,6 +98,7 @@ REST API, HTTP, WebSockets, API design, database transactions, caching (Redis), 
 Figma, UI/UX, Accessibility, MCD, use case diagram
 
 > **Where do I create MCDs and use case diagrams?**
+> 
 > I was surprised to find that there aren’t really any completely free tools for these diagrams, but fortunately I’ve found some ‘code-based’ alternatives that I like: [Mocodo](https://www.mocodo.net/) for MCDs and [plantUML](https://www.plantuml.com) for use case diagrams.
 
 ## Development projects
