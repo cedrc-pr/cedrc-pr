@@ -5,7 +5,6 @@ Full-stack developer, currently heading toward DevOps. Third-year student at Éc
 **Open to a DevOps alternance starting September/October 2027**: [LinkedIn: cedric-prin](https://www.linkedin.com/in/cedric-prin) - cedric.prin@free.fr
 
 > **Why is my GitHub so quiet?**
-> 
 > All of my school, work and personal projects live on private Git servers or on my own self-hosted Forgejo instance. I treat this GitHub profile as a showcase and portfolio rather than my day-to-day workspace.
 
 # Infra & DevOps
@@ -53,9 +52,9 @@ Three of my projects work together as a small CI/CD system built around my home 
 ### Python projects
 
 [python projects repository](https://github.com/cedrc-pr/python-projects)
-- A log watcher, simulating nginx logs and monitors the status of services in real time ([folder](https://github.com/cedrc-pr/python-projects/tree/main/log-watcher)).
-- A project cleaner, it deletes generated folders ([folder](https://github.com/cedrc-pr/python-projects/tree/main/project-cleaner)).
-- A process watcher, monitors processes and displays their CPU and memory usage in real time ([folder](https://github.com/cedrc-pr/python-projects/tree/main/process-watcher)).
+- [Log watcher](https://github.com/cedrc-pr/python-projects/tree/main/log-watcher), simulating nginx logs and monitors the status of services in real time.
+- [Project cleaner](https://github.com/cedrc-pr/python-projects/tree/main/project-cleaner), it deletes generated folders.
+- [Process watcher](https://github.com/cedrc-pr/python-projects/tree/main/process-watcher), monitors processes and displays their CPU and memory usage in real time.
 
 ## Home server
 
@@ -65,7 +64,7 @@ My own home server is basically a permanent DevOps sandbox: it runs Vaultwarden,
 
 **Languages**
 
-Rust, TypeScript, JavaScript, Python, C, SQL, HTML, CSS
+Rust, TypeScript, JavaScript, Python, C#, C, SQL, HTML, CSS
 
 **Frontend**
 
@@ -91,7 +90,7 @@ Git, Bun, npm, pnpm, yarn, Biome, ESLint
 
 **Concepts**
 
-REST API, HTTP, WebSockets, API design, database transactions, caching (Redis), Regex, async programming, error handling, testing, authentication/authorization, hashing (OWASP)
+REST API, HTTP, WebSockets, API design, database transactions, caching (Redis), OOP (Object Oriented Programming), Regex, async programming, error handling, testing, authentication/authorization, hashing (OWASP)
 
 **Design & Collaboration**
 
@@ -107,24 +106,26 @@ Figma, UI/UX, Accessibility, MCD, use case diagram
 - **School administration app** — manages information for ~200 students; **currently in production** and used daily by staff.
 - **AI-assisted exercise assessment** — a teacher creates an exercise, an **LLM** generates questions from it, a student answers them, and a report is generated to estimate the student's level and readiness for the exercise. Built as a clean, working prototype (POC) to validate the concept ahead of a larger initiative exploring **how AI can be integrated meaningfully into teaching at my school**.
 - [Copit](https://copit.cedric-prin.dev) ([repo](https://github.com/cedrc-pr/copit)) - a web app where you can create a chat room where only those with the password can join, perfect for sharing snippets of code or long links with colleagues or between devices.
-- CLI for easier **LDAP** (school authentication system) management with built-in **email** sending.
 - **Venueflow** ([repo](https://github.com/cedrc-pr/venueflow)) — an event and activity manager handling queues, delays, and live display screens.
 - **Real-time bus schedule app** — consumes a public transit API to show live arrival times.
 
 ### Rust
 
-*[rust projects repository](https://github.com/cedrc-pr/rust-projects)*
-- An experimental REST API, built mainly to explore the crate ecosystem ([folder](https://github.com/cedrc-pr/rust-projects/tree/main/rust-api)).
-- A CLI tool that scans project folders and cleans up temporary files ([folder](https://github.com/cedrc-pr/rust-projects/tree/main/projects-cleaner-cli)).
-- A raycasting engine that turns a text file (walls and empty spaces) into a pseudo-3D maze ([folder](https://github.com/cedrc-pr/rust-projects/tree/main/raycasting-engine)).
+- **LDAP management CLI**: simplifies school authentication management with built-in **email** sending.
+- [Copit backend](https://github.com/cedrc-pr/copit/tree/main/be/): an API where I learned about WebSockets and Redis.
+- [An experimental REST API](https://github.com/cedrc-pr/rust-projects/tree/main/rust-api), built mainly to discover how to write APIs in Rust.
+- [Hoarder dragon](https://github.com/cedrc-pr/rust-projects/tree/main/projects-cleaner-cli): a CLI tool that scans project folders and cleans up temporary files.
+- [Runner](https://github.com/cedrc-pr/rust-projects/tree/main/raycasting-engine): a raycasting engine that turns a text file into a pseudo-3D maze.
 
-### C
+### C# & C
 
-*[c projects repository](https://github.com/cedrc-pr/c-projects)*
-- A multi-client chat server with a built-in command interpreter ([folder](https://github.com/cedrc-pr/c-projects/tree/main/2024_chat)).
-- A generic vector implementation capable of storing any data type ([folder](https://github.com/cedrc-pr/c-projects/tree/main/2024_vector)).
-- A partial reimplementation of `dprintf` ([folder](https://github.com/cedrc-pr/c-projects/tree/main/2024_printf)).
-- A recode of `ls` ([folder](https://github.com/cedrc-pr/c-projects/tree/main/2024_ls)), `tr` ([folder](https://github.com/cedrc-pr/c-projects/tree/main/2024_tr)) and `cat` ([folder](https://github.com/cedrc-pr/c-projects/tree/main/2024_cat)).
+[Dungeon adventure](https://github.com/cedrc-pr/dungeon-adventure): a C# game in the terminal where I learnt about OOP.
+
+C projects:
+- [Clavardage](https://github.com/cedrc-pr/c-projects/tree/main/2024_chat): A multi-client chat server with a built-in command interpreter.
+- [Vector](https://github.com/cedrc-pr/c-projects/tree/main/2024_vector): A generic vector implementation capable of storing any data type.
+- [`stu_dprintf`](https://github.com/cedrc-pr/c-projects/tree/main/2024_printf): a partial reimplementation of `dprintf` (`stu` standing for student).
+- A recode of [`ls`](https://github.com/cedrc-pr/c-projects/tree/main/2024_ls), [`tr`](https://github.com/cedrc-pr/c-projects/tree/main/2024_tr) and [`cat`](https://github.com/cedrc-pr/c-projects/tree/main/2024_cat).
 
 # About me
 
