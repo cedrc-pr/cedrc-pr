@@ -22,7 +22,7 @@ Ansible (playbooks, roles, vault), Terraform (Infrastructure as Code), Oracle Cl
 
 **Containers**
 
-Docker, Docker compose, Docker networking (custom subnets, container ↔ host communication), Traefik (reverse proxy, secure headers, Let's Encrypt)
+Kubernetes (k3s), Docker, Docker compose, Docker networking (custom subnets, container ↔ host communication), Traefik (reverse proxy, secure headers, Let's Encrypt)
 
 **Monitoring**
 
