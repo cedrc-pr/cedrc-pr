@@ -2,11 +2,19 @@
 
 Full-stack developer, currently heading toward DevOps. Third-year student at École 89 (alternance / work-study program), aiming for a DevOps master's next.
 
-**Open to a DevOps alternance starting September/October 2027**: [LinkedIn: cedric-prin](https://www.linkedin.com/in/cedric-prin) - cedric.prin@free.fr
+**Open to a DevOps apprenticeship starting September 2027**: [LinkedIn: cedric-prin](https://www.linkedin.com/in/cedric-prin) - cedric.prin@free.fr
 
-> **Why is my GitHub so quiet?**
-> 
-> All of my school, work and personal projects live on private Git servers or on my own self-hosted Forgejo instance. I treat this GitHub profile as a showcase and portfolio rather than my day-to-day workspace.
+# Long story short
+
+I enjoy building complete projects, from application development to infrastructure and deployment. Here's a quick overview of what I've worked on:
+
+- **Infrastructure & automation**: Built and maintain my own cloud infrastructure on Oracle Cloud Infrastructure, provisioned with Terraform and configured with Ansible. Includes server hardening, firewall configuration, Docker, Traefik and automated HTTPS.
+- **CI/CD & deployment**: Designed a complete CI/CD pipeline connecting Copit, Infra and Deployer. Automated image builds, registry pushes and deployments with rollback capabilities, without exposing SSH to CI.
+- **Self-hosting**: Run and maintain my own home server hosting services like Vaultwarden, Forgejo and Seafile, with reverse proxying, automatic HTTPS, security hardening and backups.
+- **Full-stack development**: Built several applications, including a password-protected real-time sharing app (Copit), a school administration application used daily by staff (~200 students), and an AI-assisted exercise assessment proof of concept.
+- **Systems programming**: Developed several projects in Rust, including Copit's backend, an LDAP management CLI, and various CLI tools. Also experimented with C networking, data structures and Unix utilities.
+- **Python automation**: Created tools for monitoring logs and processes, and cleaning project directories.
+
 
 # Infra & DevOps
 
